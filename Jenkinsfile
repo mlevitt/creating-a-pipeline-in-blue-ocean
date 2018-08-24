@@ -27,7 +27,7 @@ pipeline {
             echo 'hello'
           }
         }
-        stage('') {
+        stage('Should I stay or should I go NOW!') {
           steps {
             input(message: 'Dave...', id: '1')
           }
