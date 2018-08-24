@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''ls; \\
 ls -al; \\
-ls -al ..'''
+docker images || true'''
       }
     }
   }
