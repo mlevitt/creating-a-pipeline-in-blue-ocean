@@ -37,6 +37,7 @@ pipeline {
     stage('interesting') {
       steps {
         echo 'goodbye'
+        echo 'goodbye'
       }
     }
   }
