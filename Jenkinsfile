@@ -22,7 +22,7 @@ pipeline {
             sh './jenkins/scripts/test.sh'
           }
         }
-        stage('') {
+        stage('boring') {
           steps {
             echo 'hello'
           }
@@ -34,7 +34,7 @@ pipeline {
         }
       }
     }
-    stage('') {
+    stage('interesting') {
       steps {
         echo 'goodbye'
       }
